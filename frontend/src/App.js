@@ -5,6 +5,7 @@ import LoginPage from './Components/LoginPage';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Main from './Components/Main/Main';
 import Navbar from './Components/Navbar/Navbar';
+import PopUp from './Components/Popup/PopUp';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route path='/home' element={[<Navbar />, <Home />, <Main />, <Footer />]} />
         </Routes>
       </Router>
+
+      {/* <PopUp /> */}
     </>
   );
 }
