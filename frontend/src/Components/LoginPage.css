@@ -1,0 +1,49 @@
+.Login_Main::before {
+  content: "";
+  position: absolute;
+  /* margin: 0px;
+  padding: 0px; */
+  background: url("../Assets/background.jpg");
+  /* background-size: 1560px; */
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.loginpage_main {
+  display: flex;
+  margin-top: 138px;
+  margin-left: -65px;
+}
+.loginpage_rightComponent {
+  /* height: 380px; */ /*Fixed height*/
+  width: 400px;
+  margin-left: 44px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.loginpage_signin {
+  margin-top: 25px;
+}
+.loginpage_text {
+  width: 258px;
+  height: 36px;
+  margin: 5px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.image_text_conatiner {
+  position: relative;
+  text-align: center;
+}
+.time_to_travel {
+  position: absolute;
+  top: 39%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  color: #dbdbdb;
+  font-weight: 600;
+  font-size: xx-large;
+  font-style: italic;
+  text-shadow: 6px 7px 4px #000000;
+}
